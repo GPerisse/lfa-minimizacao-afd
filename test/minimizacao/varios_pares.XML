@@ -1,0 +1,39 @@
+<AFD>
+
+   <simbolos>
+       <elemento valor="a"/>
+       <elemento valor="b"/>
+   </simbolos>
+
+   <estados>
+       <elemento valor="s00"/>
+       <elemento valor="s01"/>
+       <elemento valor="s10"/>
+       <elemento valor="s11"/>
+       <elemento valor="s20"/>
+       <elemento valor="s21"/>
+   </estados>
+
+   <estadosFinais>
+       <elemento valor="s00"/>
+       <elemento valor="s01"/>
+   </estadosFinais>
+
+   <funcaoPrograma>
+       <elemento origem="s00" destino="s10" simbolo="a"/>
+       <elemento origem="s00" destino="s01" simbolo="b"/>
+       <elemento origem="s01" destino="s11" simbolo="a"/>
+       <elemento origem="s01" destino="s00" simbolo="b"/>
+       <elemento origem="s10" destino="s20" simbolo="a"/>
+       <elemento origem="s10" destino="s11" simbolo="b"/>
+       <elemento origem="s11" destino="s21" simbolo="a"/>
+       <elemento origem="s11" destino="s10" simbolo="b"/>
+       <elemento origem="s20" destino="s00" simbolo="a"/>
+       <elemento origem="s20" destino="s21" simbolo="b"/>
+       <elemento origem="s21" destino="s01" simbolo="a"/>
+       <elemento origem="s21" destino="s20" simbolo="b"/>
+   </funcaoPrograma>
+
+   <estadoInicial valor="s00"/>
+
+</AFD>

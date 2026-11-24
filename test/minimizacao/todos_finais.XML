@@ -1,0 +1,31 @@
+<AFD>
+
+   <simbolos>
+       <elemento valor="a"/>
+       <elemento valor="b"/>
+   </simbolos>
+
+   <estados>
+       <elemento valor="f0"/>
+       <elemento valor="f1"/>
+       <elemento valor="f2"/>
+   </estados>
+
+   <estadosFinais>
+       <elemento valor="f0"/>
+       <elemento valor="f1"/>
+       <elemento valor="f2"/>
+   </estadosFinais>
+
+   <funcaoPrograma>
+       <elemento origem="f0" destino="f1" simbolo="a"/>
+       <elemento origem="f0" destino="f0" simbolo="b"/>
+       <elemento origem="f1" destino="f2" simbolo="a"/>
+       <elemento origem="f1" destino="f1" simbolo="b"/>
+       <elemento origem="f2" destino="f0" simbolo="a"/>
+       <elemento origem="f2" destino="f2" simbolo="b"/>
+   </funcaoPrograma>
+
+   <estadoInicial valor="f0"/>
+
+</AFD>

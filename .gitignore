@@ -1,0 +1,5 @@
+out/
+bin/
+*.class
+saida_*.xml
+nbproject/private/
